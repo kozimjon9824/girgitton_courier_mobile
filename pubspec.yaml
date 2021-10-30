@@ -1,0 +1,44 @@
+name: girgitton_courier_mobile
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  retrofit: ^2.0.1
+  dio: ^4.0.1
+  alice: ^0.2.4
+  logger: ^1.0.0
+  cached_network_image: ^3.1.0
+  translator: ^0.1.7
+  keyboard_dismisser: ^2.0.0
+  flutter_svg: ^0.23.0+1
+  get_storage: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/png/
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro.ttf
